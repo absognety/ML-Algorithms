@@ -12,8 +12,11 @@ def primeDetector(p):
     if (p > 10201):
         raise ValueError("greater than 10201, enter a smaller number")
     
-    if p < 100 and p in prime_numbers:
-        return ("{} is a prime number".format(p))
+    if p < 100:
+        if p in prime_numbers:
+            return ("{} is a prime number".format(p))
+        else:
+            return ("{} is not a prime number".format(p))
     else:
         sq_p = math.sqrt(p)
         near_gt = math.ceil(sq_p)
