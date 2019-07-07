@@ -1,2 +1,2 @@
-# math_Axioms_python
-Math axioms and algorithm implementations in Python
+# Machine Learning Algorithms
+Math axioms and algorithmic implementations in Python from scratch
