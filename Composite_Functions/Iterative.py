@@ -12,7 +12,7 @@ def compositeFunc(f,n,P):
         return (P)
     else:
         while (n > 0):
-            P = f.subs({'x':P})
+            P = f.subs({'x':P}).evalf()
             n -= 1
         return (P)
 

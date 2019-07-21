@@ -12,7 +12,7 @@ def compositeFuncRecur(f,n,P):
     if n==0:
         return (P)
     else:
-        P = compositeFuncRecur(f,n-1,f.subs({'x':P}))
+        P = compositeFuncRecur(f,n-1,f.subs({'x':P}).evalf())
         return (P)
     
 print (compositeFuncRecur(Fx,n,2))
