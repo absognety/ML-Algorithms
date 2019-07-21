@@ -5,6 +5,7 @@ Fx = input()
 
 Fx = simplify(Fx) #input a function of your choice with x as input variable
 ############# Iterative approach to composite functions ################
+P = int(input())
 
 def compositeFunc(f,n,P):
     if n == 0:
