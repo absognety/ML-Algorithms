@@ -6,6 +6,7 @@ Fx = input()
 Fx = simplify(Fx) #input a function of your choice with x as input variable
 
 ############# Recursive approach to composite functions ################
+P = int(input())
 
 def compositeFuncRecur(f,n,P):
     if n==0:
